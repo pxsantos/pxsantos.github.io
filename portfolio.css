@@ -1,0 +1,176 @@
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 150%;
+    background-color: white;
+    font-family: Georgia, serif;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    width: 70%;
+    float: left;
+    display: inline;
+    margin-left: 15%;
+}
+.main p {
+    padding-top: 15%;
+}
+.main a {
+    display: inline;
+    float: right;
+}
+#nav {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #629aac;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    min-width: 500px;
+}
+#nav li {
+    float: left;
+    width: 25%;
+}
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change the link color on hover */
+
+#nav li a:hover {
+    background-color: #24608c;
+    cursor: pointer;
+}
+
+#topDiv {
+    width: 100%;
+    height: 30%;
+    position: relative;
+    min-height: 300px;
+    min-width: 500px;
+    color: white;
+}
+
+
+#me {
+    min-height: 100px;
+    min-width: 70px;
+    max-height: 50%;
+    max-width: 40%;
+    margin: auto;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 5%;
+}
+#img {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+#innerDiv {
+    z-index: 1;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#innerDiv > h1 {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    float: bottom;
+    position: absolute;
+}
+h2 {
+    display: inline-block;
+    float: left;
+    margin: 0 auto;
+    margin-left: 10%;
+}
+h3 {
+    clear: both;
+    display: inline;
+}
+
+#footer {
+    clear: both;
+    background-color: #629aac;
+    color: white;
+    height: 3%;
+}
+#footer span {
+    float: right;
+}
+.logo {
+    min-height: 100px;
+    min-width: 70px;
+    max-height: 20%;
+    max-width: 15%;
+    left: 0;
+    right: 0;
+    text-align: middle;
+    display: block;
+    position: absolute;
+    margin: auto;
+    border-radius: 25%;
+}
+.main span {
+    background-color: #629aac;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10%;
+}
+#download {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    width: 25%;
+    height: 10%;
+    display: block;
+}
+.content {
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+hr {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #629aac;
+    height: .25%;
+}

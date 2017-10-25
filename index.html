@@ -1,0 +1,161 @@
+<html>
+<title> Patrick Santos Portfolio </title>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="portfolio.css" />
+
+</head>
+
+<body>
+
+    <!-- Top Div with banner -->
+    <div id="topDiv">
+        <img id="img" src="C:\Users\user\Documents\Patricks Web Design Stuff\computer-science.jpg">
+        <div id="innerDiv">
+            <img id="me" src="C:\Users\user\Documents\Patricks Web Design Stuff\AAEAAQAAAAAAAAfPAAAAJGVjN2M3YzhiLTlhYTItNDczNC1hZWQ5LThjYThmOGYzYmI4Yg.jpg">
+            <h1>Patrick Santos <br> Software Devloper</h1>
+
+        </div>
+    </div>
+
+
+    <!-- Quick Navigation Menu-->
+    <ul id="nav">
+        <li><a id="navIntro">Introduction</a></li>
+        <li><a id="navEducation">Education</a></li>
+        <li><a id="navEmployment">Employment History</a></li>
+        <li><a id="navResume">Resume Download</a></li>
+    </ul>
+
+	<!-- Introduction Div -->
+    <div class ="content">
+        <h2 id="intro"> Introduction </h2>
+        <div class="main">
+
+            <h3>Recent college graduate with a degree in Computer Science, fresh out of a contract job and internship eager to enter the workforce. Skilled at Java, C++,C#, Python, QA Automation, SQL, Web and Android Development. </h3>
+        </div>
+    </div>
+    <hr>
+
+	<!-- Education -->
+    <div class ="content">
+        <h2 id="education"> Education </h2>
+
+        <div class="main">
+            <a href="https://www.cpp.edu/">
+	<img  class = "logo" src = "C:\Users\user\Documents\Patricks Web Design Stuff\CPP seal.bmp"> 
+</a>
+            <p>
+                <b>California State Polytechnic University Pomona </b>
+                <a>2010 - 2016 </a>
+                <br></br>
+                <b>Computer Science, B.S.</b>
+                <a>GPA 3.12 </a>
+                <br></br>
+                <b>Minor in Mathematics</b>
+                <br></br>
+                Relevant Coursework:
+            </p>
+
+            <ul>
+
+                <li>Object-Oriented Programming</li>
+                <li>Operating Systems</li>
+                <li>Algorithms and Data Structures</li>
+                <li>Graphical User Interface</li>
+                <li>Fundamentals of Computer Programming</li>
+                <li>Discrete Methods of Computer Science</li>
+            </ul>
+            <span> Java </span> <span> OOP </span> <span> C++ </span> <span> Data Structures </span> <span> SQL </span>
+            <span> Networks </span> <span> C# </span> <span> GIT </span>
+        </div>
+    </div>
+    <hr>
+
+	<!-- Work History -->
+    <div class ="content">
+        <h2 id="employment"> Employment History </h2>
+        <div class="main">
+            <a href="https://www.mercuryinsurance.com/">
+	<img  class = "logo" src = "C:\Users\user\Documents\Patricks Web Design Stuff\MIC-Logo-Google-Search.png"> 
+</a>
+            <p>
+                <b>Jr Quality Assurance Engineer</b>
+                <b>Mercury Insurance (Extron Contract)</b>
+                <br></br>
+                Created and maintained test scripts using the Selenium framework. Automated test plans to help maintain the company's websites and worked with the developers to help quickly fix any problems that might occur.
+                <br></br>
+            </p>
+            <span> Java </span> <span> OOP </span> <span> Selenium </span> <span> PHP </span> <span> MySQL </span>
+            <span> Source Tree </span> <span> PhantomJS </span> <span> Jira </span> <span> Agile Methodology </span>
+            <span> Javascript </span> <span> CSS </span> <span> White Box Testing </span> <span> Black Box Testing </span>
+            <br></br>
+            <br></br>
+            <a href="https://www.westlakefinancial.com/">
+	<img  class = "logo" src = "C:\Users\user\Documents\Patricks Web Design Stuff\844ebd41.jpg"> 
+</a>
+            <p>
+                <b>Software Devloper Intern</b>
+                <b>Westlake Financial Services</b>
+                <br></br>
+                Migrated numerous procedures, reports, and queries from MS SQL and MySQL to Oracle. Extracted and transformed data using the Spring Framework using Java applications and building in Maven on the IntelliJ IDE. Developed front end and back end of web application for the automation of various reports as well as an online report browser for easy access. Generated various reports using BIRT(Business Intelligence and Reporting Tools).
+                <br></br>
+            </p>
+            <span> Java </span> <span> OOP </span> <span> Spring </span> <span> Oracle </span> <span> MySQL </span>
+            <span> MSQL </span> <span> Maven </span> <span> JavaServer Faces </span> <span> Agile Methodology </span>
+            <span> Javascript </span> <span> CSS </span> <span> HTML </span> <span> BIRT</span>
+
+        </div>
+        <hr>
+
+		<!-- Resume  -->
+        <div class ="content">
+            <h2 id="resume"> Resume </h2>
+            <div class="main">
+                <form method="get" action="C:\Users\user\Documents\Patricks Web Design Stuff\psantos resume.docx">
+                    <input src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAjwAAAAJGY4YWVjMGMzLWRlMTktNDRkZC1hOGE0LWUzMGQ3MzRlNDExZA.png" id="download" type="image"></input>
+                </form>
+
+            </div>
+        </div>
+
+        <div id="footer">
+            © 2017 Patrick Santos.
+            <span>
+	<a target="_blank" href="mailto:patrickxsantos@gmail.com">Email</a>	
+	//
+	<a target="_blank" href="https://www.linkedin.com/in/patrick-santos-8b4476b6/">Linkedin</a>	
+	//
+	<a target="_blank" href="https://www.facebook.com/patrick.santos.1612">Facebook</a>
+	</span>
+        </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+        </script>
+        <script>
+            $("#navIntro").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#intro").offset().top
+                }, 1000);
+            });
+
+            $("#navEducation").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#education").offset().top
+                }, 1000);
+            });
+            $("#navEmployment").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#employment").offset().top
+                }, 1000);
+            });
+            $("#navResume").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#resume").offset().top
+                }, 1000);
+            });
+        </script>
+</body>
+
+</html>
