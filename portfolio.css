@@ -108,7 +108,7 @@ h2 {
 }
 h3 {
     clear: both;
-    display: inline;
+	text-align: center;
 }
 
 #footer {
