@@ -74,8 +74,6 @@ html {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
-    margin-bottom: 8%;
 	
 }
 #img {
@@ -99,8 +97,8 @@ html {
     right: 0;
     text-align: center;
     margin: auto;
-    float: bottom;
     position: absolute;
+	z-index: 2;
 }
 h2 {
     display: inline-block;
