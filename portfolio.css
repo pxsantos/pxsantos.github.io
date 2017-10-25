@@ -130,7 +130,7 @@ h3 {
     position: absolute;
     margin: auto;
     border-radius: 25%;
-	margin-bottom: 20%;
+	margin-bottom: 30%;
 }
 .main span {
     background-color: #629aac;
@@ -154,7 +154,7 @@ h3 {
     z-index: 2;
     position: relative;
     min-width: 25%;
-    min-height: 10%;
+    height: 10%;
     display: block;
 }
 .content {
