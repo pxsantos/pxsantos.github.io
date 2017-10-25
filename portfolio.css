@@ -121,8 +121,6 @@ h3 {
     float: right;
 }
 .logo {
-    min-height: 100px;
-    min-width: 70px;
     max-height: 20%;
     max-width: 15%;
     left: 0;
@@ -132,6 +130,7 @@ h3 {
     position: absolute;
     margin: auto;
     border-radius: 25%;
+	margin-bottom: 20%;
 }
 .main span {
     background-color: #629aac;
@@ -154,8 +153,8 @@ h3 {
     margin: 0 auto;
     z-index: 2;
     position: relative;
-    width: 25%;
-    height: 10%;
+    min-width: 25%;
+    min-height: 10%;
     display: block;
 }
 .content {
@@ -172,4 +171,8 @@ hr {
     margin-right: 10%;
     background-color: #629aac;
     height: .25%;
+}
+#downloadButt{
+	width: 20%;
+	height:15%;
 }
